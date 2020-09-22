@@ -1,0 +1,45 @@
+h1{
+	color: #000000;
+	font-size:20px;
+	background: #cccccc;
+	width: 90%;
+	
+}
+
+#dataintable{
+	font-size: 13px;
+	border: 2px solid #ffffff;
+	cellspacing: "0px";
+	border-collapse:collapse;
+	cellspacing:"0px";
+	width: 90%;
+	background: #E0EEEE;	
+}
+
+#dataintable,tr,td{
+	border: 2px solid #ffffff;
+}
+
+#dataintable td.num1{
+	width:150px;
+	text-align:right;
+}
+
+#dataintable td.num2{
+	width:350;
+	text-align:left;
+}
+
+#dataintable td.num3{
+	width:300;
+	text-align:right;
+}
+
+#dataintable td.num4{
+	width:300;
+	text-align:left;
+}
+
+
+
+

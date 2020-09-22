@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>scproject</display-name>
+  
+  <session-config>
+  	<session-timeout>30</session-timeout>
+  </session-config>
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryHex</servlet-name>
+    <servlet-class>com.seu.servlets.QueryHex</servlet-class>
+  </servlet>
+  
+     <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryHex1</servlet-name>
+    <servlet-class>com.seu.servlets.QueryHex1</servlet-class>
+  </servlet>
+  
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddIni_deal</servlet-name>
+    <servlet-class>com.seu.servlets.AddIni_deal</servlet-class>
+  </servlet>
+     <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryIni</servlet-name>
+    <servlet-class>com.seu.servlets.QueryIni</servlet-class>
+  </servlet>
+       <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadIni</servlet-name>
+    <servlet-class>com.seu.servlets.DownloadIni</servlet-class>
+  </servlet>
+         <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadHex</servlet-name>
+    <servlet-class>com.seu.servlets.DownloadHex</servlet-class>
+  </servlet>
+           <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PanDuanWenJian</servlet-name>
+    <servlet-class>com.seu.servlets.PanDuanWenJian</servlet-class>
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyIni_deal</servlet-name>
+    <servlet-class>com.seu.servlets.ModifyIni_deal</servlet-class>
+  </servlet>
+     <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.seu.servlets.Login</servlet-class>
+  </servlet>
+       <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryWriteRecord</servlet-name>
+    <servlet-class>com.seu.servlets.QueryWriteRecord</servlet-class>
+  </servlet>
+       <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IfHaveHex</servlet-name>
+    <servlet-class>com.seu.servlets.IfHaveHex</servlet-class>
+  </servlet>
+       <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IfHaveIni</servlet-name>
+    <servlet-class>com.seu.servlets.IfHaveIni</servlet-class>
+  </servlet>
+         <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryManagement_log</servlet-name>
+    <servlet-class>com.seu.servlets.QueryManagement_log</servlet-class>
+  </servlet>
+           <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PanDuanSjljh_state</servlet-name>
+    <servlet-class>com.seu.servlets.PanDuanSjljh_state</servlet-class>
+  </servlet>
+             <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeTo3</servlet-name>
+    <servlet-class>com.seu.servlets.ChangeTo3</servlet-class>
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FromHexToSC12E</servlet-name>
+    <servlet-class>com.seu.servlets.FromHexToSC12E</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PanDuanQuanXian</servlet-name>
+    <servlet-class>com.seu.servlets.PanDuanQuanXian</servlet-class>
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UseFadongjiToMin</servlet-name>
+    <servlet-class>com.seu.servlets.UseFadongjiToMin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangePassword</servlet-name>
+    <servlet-class>com.seu.servlets.ChangePassword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryHex_byorder</servlet-name>
+    <servlet-class>com.seu.servlets.QueryHex_byorder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryHex_byorder1</servlet-name>
+    <servlet-class>com.seu.servlets.QueryHex_byorder1</servlet-class>
+  </servlet>  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryIni_byorder</servlet-name>
+    <servlet-class>com.seu.servlets.QueryIni_byorder</servlet-class>
+  </servlet> 
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryObd</servlet-name>
+    <servlet-class>com.seu.servlets.QueryObd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IfHaveObd</servlet-name>
+    <servlet-class>com.seu.servlets.IfHaveObd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryMessage</servlet-name>
+    <servlet-class>com.seu.servlets.QueryMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryUserInfo</servlet-name>
+    <servlet-class>com.seu.servlets.QueryUserInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ForTheWriteRecord</servlet-name>
+    <servlet-class>com.seu.servlets.ForTheWriteRecord</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryRengonghao</servlet-name>
+    <servlet-class>com.seu.servlets.QueryRengonghao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryStatebysjljhversion</servlet-name>
+    <servlet-class>com.seu.servlets.QueryStatebysjljhversion</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CeshiLogin</servlet-name>
+    <servlet-class>com.seu.servlets.CeshiLogin</servlet-class>
+  </servlet>  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Autocomplete</servlet-name>
+    <servlet-class>com.seu.servlets.Autocomplete</servlet-class>
+  </servlet>   
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryStatebyecuordersbm</servlet-name>
+    <servlet-class>com.seu.servlets.QueryStatebyecuordersbm</servlet-class>
+  </servlet>   
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PanDuanWtdInfo</servlet-name>
+    <servlet-class>com.seu.servlets.PanDuanWtdInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryUserInfoPro</servlet-name>
+    <servlet-class>com.seu.servlets.QueryUserInfoPro</servlet-class>
+  </servlet>  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PanDuanWtdInfo_Tiqian</servlet-name>
+    <servlet-class>com.seu.servlets.PanDuanWtdInfo_Tiqian</servlet-class>
+  </servlet>  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PanDuanIni_state</servlet-name>
+    <servlet-class>com.seu.servlets.PanDuanIni_state</servlet-class>
+  </servlet>  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeTo3_ini</servlet-name>
+    <servlet-class>com.seu.servlets.ChangeTo3_ini</servlet-class>
+  </servlet>  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IfCanchexiaoshenhe</servlet-name>
+    <servlet-class>com.seu.servlets.IfCanchexiaoshenhe</servlet-class>
+  </servlet>  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PanDuanSjljh_shifouzailiuchengzhong</servlet-name>
+    <servlet-class>com.seu.servlets.PanDuanSjljh_shifouzailiuchengzhong</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PanDuanEcuorder_shifouzailiuchengzhong</servlet-name>
+    <servlet-class>com.seu.servlets.PanDuanEcuorder_shifouzailiuchengzhong</servlet-class>
+  </servlet>  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryHex_mydata</servlet-name>
+    <servlet-class>com.seu.servlets.QueryHex_mydata</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryIni_mydata</servlet-name>
+    <servlet-class>com.seu.servlets.QueryIni_mydata</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QiDongThread</servlet-name>
+    <servlet-class>com.seu.servlets.QiDongThread</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>  
+  <servlet>
+    <servlet-name>LookForOrderForHex</servlet-name>
+    <servlet-class>com.seu.servlets.LookForOrderForHex</servlet-class>
+  </servlet> 
+  <servlet>
+    <servlet-name>LookForSjljhForIni</servlet-name>
+    <servlet-class>com.seu.servlets.LookForSjljhForIni</servlet-class>
+  </servlet>   
+
+
+
+  
+  <servlet-mapping>
+    <servlet-name>LookForOrderForHex</servlet-name>
+    <url-pattern>/LookForOrderForHex</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LookForSjljhForIni</servlet-name>
+    <url-pattern>/LookForSjljhForIni</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryHex</servlet-name>
+    <url-pattern>/QueryHex</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>QueryHex1</servlet-name>
+    <url-pattern>/QueryHex1</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>AddIni_deal</servlet-name>
+    <url-pattern>/AddIni_deal</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>QueryIni</servlet-name>
+    <url-pattern>/QueryIni</url-pattern>
+  </servlet-mapping>
+     <servlet-mapping>
+    <servlet-name>DownloadIni</servlet-name>
+    <url-pattern>/DownloadIni</url-pattern>
+  </servlet-mapping>
+     <servlet-mapping>
+    <servlet-name>DownloadHex</servlet-name>
+    <url-pattern>/DownloadHex</url-pattern>
+  </servlet-mapping>
+       <servlet-mapping>
+    <servlet-name>PanDuanWenJian</servlet-name>
+    <url-pattern>/PanDuanWenJian</url-pattern>
+  </servlet-mapping>
+         <servlet-mapping>
+    <servlet-name>ModifyIni_deal</servlet-name>
+    <url-pattern>/ModifyIni_deal</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>QueryWriteRecord</servlet-name>
+    <url-pattern>/QueryWriteRecord</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>IfHaveHex</servlet-name>
+    <url-pattern>/IfHaveHex</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IfHaveIni</servlet-name>
+    <url-pattern>/IfHaveIni</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryManagement_log</servlet-name>
+    <url-pattern>/QueryManagement_log</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>PanDuanSjljh_state</servlet-name>
+    <url-pattern>/PanDuanSjljh_state</url-pattern>
+  </servlet-mapping>
+      <servlet-mapping>
+    <servlet-name>ChangeTo3</servlet-name>
+    <url-pattern>/ChangeTo3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FromHexToSC12E</servlet-name>
+    <url-pattern>/FromHexToSC12E</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PanDuanQuanXian</servlet-name>
+    <url-pattern>/PanDuanQuanXian</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UseFadongjiToMin</servlet-name>
+    <url-pattern>/UseFadongjiToMin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePassword</servlet-name>
+    <url-pattern>/ChangePassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryHex_byorder1</servlet-name>
+    <url-pattern>/QueryHex_byorder1</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>QueryHex_byorder</servlet-name>
+    <url-pattern>/QueryHex_byorder</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>QueryIni_byorder</servlet-name>
+    <url-pattern>/QueryIni_byorder</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>QueryObd</servlet-name>
+    <url-pattern>/QueryObd</url-pattern>
+  </servlet-mapping> 
+  <servlet-mapping>
+    <servlet-name>IfHaveObd</servlet-name>
+    <url-pattern>/IfHaveObd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryMessage</servlet-name>
+    <url-pattern>/QueryMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryUserInfo</servlet-name>
+    <url-pattern>/QueryUserInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ForTheWriteRecord</servlet-name>
+    <url-pattern>/ForTheWriteRecord</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryRengonghao</servlet-name>
+    <url-pattern>/QueryRengonghao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryStatebysjljhversion</servlet-name>
+    <url-pattern>/QueryStatebysjljhversion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CeshiLogin</servlet-name>
+    <url-pattern>/CeshiLogin</url-pattern>
+  </servlet-mapping> 
+  <servlet-mapping>
+    <servlet-name>Autocomplete</servlet-name>
+    <url-pattern>/Autocomplete</url-pattern>
+  </servlet-mapping> 
+  <servlet-mapping>
+    <servlet-name>QueryStatebyecuordersbm</servlet-name>
+    <url-pattern>/QueryStatebyecuordersbm</url-pattern>
+  </servlet-mapping> 
+  <servlet-mapping>
+    <servlet-name>PanDuanWtdInfo</servlet-name>
+    <url-pattern>/PanDuanWtdInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryUserInfoPro</servlet-name>
+    <url-pattern>/QueryUserInfoPro</url-pattern>
+  </servlet-mapping> 
+  <servlet-mapping>
+    <servlet-name>PanDuanWtdInfo_Tiqian</servlet-name>
+    <url-pattern>/PanDuanWtdInfo_Tiqian</url-pattern>
+  </servlet-mapping> 
+  <servlet-mapping>
+    <servlet-name>PanDuanIni_state</servlet-name>
+    <url-pattern>/PanDuanIni_state</url-pattern>
+  </servlet-mapping> 
+  <servlet-mapping>
+    <servlet-name>ChangeTo3_ini</servlet-name>
+    <url-pattern>/ChangeTo3_ini</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IfCanchexiaoshenhe</servlet-name>
+    <url-pattern>/IfCanchexiaoshenhe</url-pattern>
+  </servlet-mapping> 
+  <servlet-mapping>
+    <servlet-name>PanDuanEcuorder_shifouzailiuchengzhong</servlet-name>
+    <url-pattern>/PanDuanEcuorder_shifouzailiuchengzhong</url-pattern>
+  </servlet-mapping> 
+  <servlet-mapping>
+    <servlet-name>PanDuanSjljh_shifouzailiuchengzhong</servlet-name>
+    <url-pattern>/PanDuanSjljh_shifouzailiuchengzhong</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>QueryHex_mydata</servlet-name>
+    <url-pattern>/QueryHex_mydata</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryIni_mydata</servlet-name>
+    <url-pattern>/QueryIni_mydata</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QiDongThread</servlet-name>
+    <url-pattern>/QiDongThread</url-pattern>
+  </servlet-mapping>
+  
+    
+   
+ <filter>
+  	<filter-name>RightFilter</filter-name>
+  	<filter-class>com.seu.filter.RightFilter</filter-class>
+  </filter>
+  
+  
+  <filter-mapping>
+  	<filter-name>RightFilter</filter-name>
+  	<url-pattern>/index.jsp</url-pattern>
+  	<url-pattern>/jsp/Mission/*</url-pattern>
+  	<url-pattern>/jsp/CarManage/*</url-pattern>
+  	<url-pattern>/jsp/CarExamine/*</url-pattern>
+  	<url-pattern>/jsp/ChangePassword/*</url-pattern>
+  	<url-pattern>/jsp/HexPfile/*</url-pattern>
+  	<url-pattern>/jsp/HexPfileExamine/*</url-pattern>
+  	<url-pattern>/jsp/Management_log/*</url-pattern>
+  	<url-pattern>/jsp/MessageAlert/*</url-pattern>
+  	<url-pattern>/jsp/obd/*</url-pattern>
+  	<url-pattern>/jsp/UserInfoPro/*</url-pattern>
+  	<url-pattern>/jsp/WriteRecord/*</url-pattern>
+  </filter-mapping> 
+  
+</web-app>

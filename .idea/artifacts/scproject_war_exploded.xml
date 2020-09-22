@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="scproject:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/scproject_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="scproject" />
+        </element>
+      </element>
+      <element id="library" level="module" name="sqljdbc4.jar" module-name="scproject" />
+      <element id="library" level="module" name="commons-dbcp-1.4.jar" module-name="scproject" />
+      <element id="library" level="module" name="commons-pool-1.6.jar" module-name="scproject" />
+      <element id="library" level="module" name="commons-collections-3.2.1.jar" module-name="scproject" />
+      <element id="library" level="module" name="commons-net-1.4.1.jar" module-name="scproject" />
+      <element id="library" level="module" name="jakarta-oro-2.0.8.jar" module-name="scproject" />
+      <element id="library" level="module" name="jsmartcom_zh_CN.jar" module-name="scproject" />
+      <element id="library" level="module" name="json-lib-2.3-jdk15.jar" module-name="scproject" />
+      <element id="library" level="module" name="commons-beanutils-1.8.3.jar" module-name="scproject" />
+      <element id="library" level="module" name="commons-lang-2.5.jar" module-name="scproject" />
+      <element id="library" level="module" name="commons-logging-1.1.1.jar" module-name="scproject" />
+      <element id="library" level="module" name="ezmorph-1.0.6.jar" module-name="scproject" />
+      <element id="library" level="module" name="axis.jar" module-name="scproject" />
+      <element id="library" level="module" name="jaxrpc.jar" module-name="scproject" />
+      <element id="library" level="module" name="commons-discovery-0.2.jar" module-name="scproject" />
+      <element id="javaee-facet-resources" facet="scproject/web/Web" />
+    </root>
+  </artifact>
+</component>
